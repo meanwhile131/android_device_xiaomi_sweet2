@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2024 The LineageOS Project
+# Copyright (C) 2021-2026 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -19,7 +19,7 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := sweet_defconfig
+TARGET_KERNEL_CONFIG += vendor/sweet.config
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
